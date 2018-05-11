@@ -44,11 +44,6 @@ void cola::Anadir(int v)
         //nuevo->siguiente=NULL;
     }
     ultimo = nuevo;
-	
-
-
-    if (!primero)
-        primero = nuevo;
 }
 
 bool cola :: Vacia()
