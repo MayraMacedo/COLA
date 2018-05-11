@@ -34,8 +34,6 @@ void cola::Anadir(int v)
 {
     pnodo nuevo;
 	nuevo = new nodo(v);
-    /* Crear un nodo nuevo */
-    /* Este sera el ultimo nodo, no debe tener siguiente */
     if (Vacia() )
     {
     	primero = nuevo;
